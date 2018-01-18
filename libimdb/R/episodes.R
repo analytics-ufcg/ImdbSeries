@@ -68,3 +68,9 @@ get_all_episodes <- function(series_imdb_id){
   
   return(episodes_full)
 }   
+
+# https://github.com/analytics-ufcg/rcongresso
+# https://github.com/hadley/ggplot2movies
+# https://github.com/nazareno/imdb-series
+# https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/
+# http://tinyheero.github.io/jekyll/update/2015/07/26/making-your-first-R-package.html
