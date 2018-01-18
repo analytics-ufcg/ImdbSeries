@@ -1,0 +1,23 @@
+Package: libimdb
+Type: Package
+Title: A dataset to analyse user ratings given in IMDB to episodes of some popular series. And the code to generate your version of it.
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Talita", "Lôbo", , "talitabac@gmail.com", c("aut", "cre")),
+    person("Nazareno", "Andrade", , "nazareno@computacao.ufcg.edu.br", c("aut", "cre")),
+    person("Laboratório Analytics (UFCG)", role = c("cph", "fnd"))
+    )
+URL: https://github.com/analytics-ufcg/ImdbSeries/
+BugReports: https://github.com/analytics-ufcg/ImdbSeries/issues
+Description: A R library to generate your own version of IMDB dataset.
+Depends: R (>= 3.4.0)
+License: LGPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: dplyr,
+    purrr,
+    tibble,
+    tidyr,
+    readr,
+    rvest,
+
